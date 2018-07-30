@@ -10,13 +10,14 @@ def key_for_min_value(name_hash)
   if name_hash.empty?
     nil 
   else
-  end
-
-  name_has.each do |key, value|
+    name_has.each do |key, value|
     if (value < min)
       min = value
       lowkey = key
     end
   end
+  end
+
+
   lowkey
 end
