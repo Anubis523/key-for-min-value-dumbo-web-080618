@@ -5,6 +5,10 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  if name_hash.empty?
+    nil 
+  else
+  end
   min = 1000
   lowkey = ""
   name_has.each do |key, value|
